@@ -10,7 +10,7 @@ class nfs::params {
           $portmap_package = 'portmap'
           $statd_service   = 'nfs-common'
         }
-        'stretch', 'buster': {
+        'stretch', 'buster', 'bullseye': {
           $portmap_service = 'rpcbind'
           $portmap_package = 'rpcbind'
           $statd_service   = 'rpc-statd'
